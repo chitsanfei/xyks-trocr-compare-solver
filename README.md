@@ -33,10 +33,12 @@ x_offset = random.randint(-max_offset, max_offset)
 y_offset = random.randint(-max_offset, max_offset)
 ```
 - 推理可以运行在 cuda 上。
-- 自动下载 ADB！
+- 没有 ADB 自动下载 ADB！
+- 可以在 config 配置分辨率，dpi，两个数字的 OCR 坐标范围和模拟输入的坐标范围。
 - 项目 Maintainer 基本不负责更新喵！
 
 # 快速开始
+
 1. 下载：
 ```git
 git clone https://github.com/chitsanfei/xyks-dl-solver
@@ -51,7 +53,8 @@ cd xyks-dl-solver && pip install -r requirements.txt
 ```
 python main.py
 ```
-> 特别的，第一次运行可能会生成配置，如果失败了请再次运行一次。
+
+特别的，第一次运行可能会生成配置，如果失败了请再次运行一次。
 
 **如果没有显卡，建议小朋友在经济允许的情况下去买一个显卡哦！这样就可以开始你的深度学习之旅了（）**
 
@@ -60,6 +63,10 @@ python main.py
 - 只测试过 Windows（尤其是 ADB 自动下载），其它平台的问题，即使有问题，那也就是有问题。
 - 模型从抱抱脸下过来，建议使用量子虫洞，抱抱脸下载模型默认路径不在本 repo，建议百度找一找在哪。
 - **由于截图需要从 ADB 传输，还要经过推理，本项目荣获小猿口算算法 Speedrun 竞赛倒数**。经十轮测试，青铜段位在有机器人的情况下，约一半持平，3/10 干不过人工队。
+
+# 测试情况
+- Windows 11, Anaconda Python 3.12.3;
+- Mumu 模拟器 12，900 x 1600, dpi 320；
 
 # 声明
 
