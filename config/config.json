@@ -1,0 +1,29 @@
+{
+    "screen_width": 900,
+    "screen_height": 1600,
+    "dpi": 320,
+    "ocr_region": {
+        "digit1": {
+            "x": 258,
+            "y": 410,
+            "width": 140,
+            "height": 102
+        },
+        "digit2": {
+            "x": 516,
+            "y": 410,
+            "width": 110,
+            "height": 102
+        }
+    },
+    "input_region": {
+        "x": 250,
+        "y": 1000,
+        "width": 400,
+        "height": 300
+    },
+    "adb_address": "127.0.0.1:16384",
+    "adb_command": [
+        "adb/platform-tools/adb.exe"
+    ]
+}
