@@ -1,7 +1,7 @@
 <div align="center">
     <img src="./.assets/icon.png" height="200" alt="xyks-dl-solver"> 
-    <h1>xyks-dl-solver</h1>
-    <b>小猿口算答题的一个 Deep Learning based OCR 实现</b>
+    <h1>xyks-trocr-compare-solver</h1>
+    <b>小猿口算答题比大小的一个 Deep Learning based OCR 实现</b>
 </div>
 
 </br>
@@ -35,6 +35,7 @@ y_offset = random.randint(-max_offset, max_offset)
 - 推理可以运行在 cuda 上。
 - 没有 ADB 自动下载 ADB！
 - 可以在 config 配置分辨率，dpi，两个数字的 OCR 坐标范围和模拟输入的坐标范围。
+- 只能比大小。
 - 项目 Maintainer 基本不负责更新喵！
 
 # 快速开始
